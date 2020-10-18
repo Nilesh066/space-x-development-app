@@ -11,7 +11,8 @@
 ### To run the code locally
     1. Download the entire code from https://github.com/Nilesh066/SpaceX_Project
     2. Run command prompt and change the path inside the project by typing --> cd SpaceX_Project
-    3. To run the project in local machine type in command prompt --> npm install && npm start.
+    3. To run the project in local machine type in command prompt -->npm run build 
+                                                                  -->npm install && npm start.
                                          Or 
 	Click on website link https://space-x-app-with-filters.herokuapp.com/
 ### Screens With filters selected.
