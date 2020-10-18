@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  background-color: rgb(233, 233, 233);
+}
+
+/*APP*/
+.Container {
+  background-color: rgb(233, 233, 233);
+  margin: 5px;
+}
+.main-heading {
+  margin-left: 15px;
+  margin-top: -10px;
+}
+
+/*FILTER-COMPONENT*/
+.Filter-Card-Container {
+  background-color: white;
+  width: 220px;
+  max-width: 700px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Filter-sub-heading1 {
+  margin-top: -20px;
+  text-align: center;
+  font-weight: normal;
+}
+hr {
+  width: 60%;
+  margin-top: -20px;
+}
+.filter-buttons tr button {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(144, 221, 144);
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.filter-buttons tr button:hover {
+  background-color: rgb(24, 121, 24);
+}
+.filter-buttons tr button:checked {
+  background-color: rgb(13, 94, 13);
+}
+.Filter-sub-heading2,
+.Filter-sub-heading3 {
+  text-align: center;
+  font-weight: normal;
+}
+
+/*RESULT-COMPONENT*/
+.Result-Card-Container {
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.results-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+.results {
+  width: 262px;
+  height: 450px;
+  margin: 3px;
+}
+.result-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid white;
+  border-radius: 5px;
+}
+.result-detail {
+  background-color: white;
+  padding: 10px 30px 30px 30px;
+  font-weight: bold;
+}
+.mission-name {
+  color: rgb(54, 54, 153);
+}
+.mission-name,
+.mission-id,
+.mission-launchYear,
+.mission-successful-launching,
+.mission-successful-landing {
+  margin-top: 10px;
+}
+footer {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+/*loading*/
+.loading {
+  margin-top: 300px;
+  margin-left: 600px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  /*laptop-view*/
+  .results-data {
+    margin-left: 260px;
+    margin-top: -565px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 701px) {
+  /*tablet-view*/
+
+  .results-data {
+    justify-content: center;
+    margin-left: 260px;
+    margin-top: -565px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /*mobile-view*/
+  .results-data {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .Filter-Card-Container,
+  .Result-Card-Container,
+  .main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
